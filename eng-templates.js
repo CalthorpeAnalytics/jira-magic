@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Jira Descriptions
-// @namespace    github.com/CalthorpeAnalytics/jira-magic
-// @version      1.1
-// @description  User script helpers for Jira
+// @name         Issue Description Templates
+// @namespace    github.com/CalthorpeAnalytics/jira-magic/eng-templates
+// @version      1.2
+// @description  Adds description templating to issue create modal
 // @author       CalthorpeAnalytics
 // @match        https://*.atlassian.net/jira/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=urbanfootprint.com
@@ -17,7 +17,6 @@
         function clearDesc() {
             let node = document.getElementById("description-container");
             let box = node.querySelectorAll('[role="textbox"]')[0];
-            console.log(box);
             box.setHTML("<p></p>");
         }
         function storyDesc() {
