@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Jira Magic
+// @name         Jira Descriptions
 // @namespace    github.com/CalthorpeAnalytics/jira-magic
-// @version      1.0
+// @version      1.1
 // @description  User script helpers for Jira
 // @author       CalthorpeAnalytics
 // @match        https://*.atlassian.net/jira/*
